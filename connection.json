@@ -1,0 +1,28 @@
+{
+  "abeo": {
+    "hfckeyStore": "hfc-key-store",
+    "grpc": "grpc://localhost:7051",
+    "chaincodeID": {
+      "chone_medicalrecords": "chone_medicalrecords"
+    },
+    "chaincode": {
+      "chone_medicalrecords": {
+        "fcn1": "documentUpload",
+        "fcn2": "fileDuplicateCheck",
+        "fcn3": "listOfDocs",
+        "fcn4": "listOfPatientDocsPractioner",
+        "fcn5": "deleteDocument",
+        "fcn6": "downloadPermissionCheck",
+        "fcn7": "historyForKey",
+        "fcn8": "setDocPermissions",
+        "fcn9": "editDocument"
+      }
+    },
+    "channels": {
+      "channel1": "channelone"
+    }
+  },
+  "orderer": {
+    "grpc": "grpc://localhost:7050"
+  }
+}
