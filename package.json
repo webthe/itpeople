@@ -42,7 +42,7 @@
     "openldap_ssha": "0.0.11",
     "pg": "^7.12.1",
     "pm2": "^3.4.0",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "pull-stream-to-async-iterator": "^1.0.2",
     "qr-image": "^3.2.0",
     "request": "^2.88.0",
