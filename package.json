@@ -37,7 +37,7 @@
     "morgan": "~1.9.0",
     "multer": "^1.1.0",
     "mysql": "^2.16.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "nodemon": "^1.18.10",
     "openldap_ssha": "0.0.11",
     "pg": "^7.12.1",
